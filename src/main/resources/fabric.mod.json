@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "${id}",
+  "version": "${version}",
+  "name": "${name}",
+  "description": "Restores pre 1.14s responsive entity impulse by reordering the entity tracker tick. Fixes MC-297196.",
+  "authors": [
+    "cintlex"
+  ],
+  "contact": {
+    "homepage": "https://github.com/cintlep/Enttick",
+    "sources": "https://github.com/cintlep/Enttick",
+    "issues": "https://github.com/cintlep/Enttick/issues"
+  },
+  "license": "LGPL 3.0 Only",
+  "icon": "assets/enttick/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "cintlex.enttick.Enttick"
+    ]
+  },
+  "mixins": [
+    "enttick.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.17",
+    "minecraft": "${minecraft}"
+  }
+}

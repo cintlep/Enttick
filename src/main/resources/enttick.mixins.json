@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "cintlex.enttick.mixin",
+  "compatibilityLevel": "${java}",
+  "minVersion": "0.8",
+  "mixins": [
+    "AllowMeToInvokeThisTick",
+    "DontTickHere",
+    "TickHere"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

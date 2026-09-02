@@ -1,0 +1,21 @@
+# See https://stonecutter.kikugie.dev/wiki/config/properties#centralized-properties
+mod.id = "enttick"
+mod.name = "Enttick"
+mod.group = "cintlex.enttick"
+mod.version = "0.2.0"
+
+deps.fabric_loader = "0.17.0"
+loomx.loom_version = "1.17-SNAPSHOT"
+
+["1.14.4"]
+# Mod compatibility range in fabric.mod.json
+mod.mc_compat = ">=1.14.4 <=1.20.2"
+
+
+["1.20.3"]
+mod.mc_compat = ">=1.20.3 <=1.21.11"
+
+
+["26.1"]
+mod.mc_compat = ">=26.1"
+
